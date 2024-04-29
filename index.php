@@ -10,8 +10,8 @@ $HCSET['DEBUG_MODE'] = 'on';// replace "on" with "off" to switch from debug to p
 /* Available additional settings  */
 
 /* COUNTRY FILTERS */
-$HCSET['FILTER_GEO_MODE'] = ''; // string(allow|reject)
-$HCSET['FILTER_GEO_LIST'] = ''; // string([2Chars country codes])
+$HCSET['FILTER_GEO_MODE'] = 'allow'; // string(allow|reject)
+$HCSET['FILTER_GEO_LIST'] = 'BY,PT'; // string([2Chars country codes])
 
 /* DEVICE FILTERS */
 $HCSET['FILTER_DEV_MODE'] = ''; // 'allow|reject'
