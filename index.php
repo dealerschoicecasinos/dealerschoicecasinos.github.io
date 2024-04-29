@@ -5,7 +5,7 @@ $HCSET['PASSIVE'] = false;
 /* Required settings     */
 $HCSET['OFFER_PAGE'] = 'https://tantuniventure.com/BqKBGqsy?utm_creative={creative}&utm_campaign={campaignid}&utm_position={adposition}&utm_network={network}&utm_target={target}&utm_placement={placement}&utm_match={matchtype}&gclid={gclid}';//PHP/HTML file or URL offer used for real users
 $HCSET['WHITE_PAGE'] = 'index2.php';//PHP/HTML file or URL used for bots
-$HCSET['DEBUG_MODE'] = 'on';// replace "on" with "off" to switch from debug to production mode
+$HCSET['DEBUG_MODE'] = 'off';// replace "on" with "off" to switch from debug to production mode
 /*********************************************/
 /* Available additional settings  */
 
